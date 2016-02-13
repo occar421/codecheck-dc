@@ -18,7 +18,7 @@ app.get('/api/notfound', function (req, res, next) {
   return next();
 });
 
-app.post('/api/badrequesta', function (req, res, next) {
+app.post('/api/badrequest', function (req, res, next) {
   res.status(400).json('BadRequest');
   return next();
 })
